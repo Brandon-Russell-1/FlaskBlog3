@@ -1,1 +1,1 @@
-web: gunicorn flaskr.auth:bp
+web: gunicorn wsgi:app
